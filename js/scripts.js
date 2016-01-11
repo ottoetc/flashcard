@@ -1,5 +1,7 @@
 $(document).ready(function() {
-  $(".clickable").click(function(){
-    $(".panel-body").toggle();
+  $(".panel-heading").click(function(){
+    $(this).next(".panel-body").toggle("slow");
+
   });
 });
+//$(".panel-body").toggle();
