@@ -1,7 +1,6 @@
 $(document).ready(function() {
-  $(".panel-heading").click(function(){
-    $(this).next(".panel-body").toggle("slow");
-
+  $(".panel-body").click(function(){
+    $(".definition-shown", this).toggle();
+    $(".definition-hidden", this).toggle();
   });
 });
-//$(".panel-body").toggle();
