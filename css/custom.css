@@ -1,7 +1,19 @@
 .jumbotron {
   text-align: center;
+  background-color: #2e4160;
+  color: #ffffff;
 }
 
 .definition-shown {
   display: none;
+}
+
+.panel-body {
+  background: #2e4160;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+body {
+  background-color: #e7e9ed;
 }
